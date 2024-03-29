@@ -25,8 +25,8 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: black;
+    text-decoration: black;
 }
 
 main {
@@ -79,7 +79,7 @@ footer {
 
 .price-card ul li:last-child {
     font-weight: bold;
-    color: purple;
+    color: White;
     font-size: 18px;
 }
 

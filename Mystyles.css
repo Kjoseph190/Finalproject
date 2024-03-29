@@ -45,7 +45,7 @@ main {
 }
 
 footer {
-    background-color: red;
+    background-color: white;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -59,7 +59,7 @@ footer {
 }
 
 .price-card h2 {
-    color: red;
+    color: white;
     font-size: 24px;
     margin-bottom: 10px;
 }

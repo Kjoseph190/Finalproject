@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: white;
     color: white;
     padding: 1rem;
 }
@@ -45,21 +45,21 @@ main {
 }
 
 footer {
-    background-color: green;
+    background-color: white;
     color: white;
     text-align: center;
     padding: 1rem;
 }
 
 .price-card {
-    background-color: black;
+    background-color: white;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
 }
 
 .price-card h2 {
-    color: brown;
+    color: white;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -116,24 +116,24 @@ form button {
     width: 100%;
     padding: 10px;
     background-color: white;
-    color: green;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s black;
+    transition: background-color 0.3s white;
 }
 
 form button:hover {
-    background-color: black;
+    background-color: white;
 }
 
 footer {
-    background-color: black;
+    background-color: white;
     color: red;
     text-align: center;
     padding: 1rem;
 }
 
 body {
-    background-color: black;
+    background-color: white;
 }

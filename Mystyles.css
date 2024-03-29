@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: black;
     color: white;
     padding: 1rem;
 }
@@ -65,7 +65,7 @@ footer {
 }
 
 .price-card p {
-    color: grey;
+    color: white;
     margin-bottom: 15px;
 }
 
@@ -107,7 +107,7 @@ form select {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 5px;
 }
 

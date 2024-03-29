@@ -84,7 +84,7 @@ footer {
 }
 
 footer {
-    background-color: black;
+    background-color: white;
     color: red;
     text-align: center;
     padding: 1rem;
@@ -129,7 +129,7 @@ form button:hover {
 
 footer {
     background-color: white;
-    color: red;
+    color: black;
     text-align: center;
     padding: 1rem;
 }

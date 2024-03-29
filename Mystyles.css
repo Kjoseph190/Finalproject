@@ -44,51 +44,64 @@ main {
     height: auto;
 }
 
-footer {
-    background-color: black;
-    color: black;
-    text-align: center;
-    padding: 1rem;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
 }
 
-.price-card {
-    background-color: black;
-    border-radius: 8px;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pricing-plan {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.price-card h2 {
-    color: white;
-    font-size: 24px;
-    margin-bottom: 10px;
+.pricing-plan h2 {
+    color: #333;
 }
 
-.price-card p {
-    color: white;
-    margin-bottom: 15px;
+.pricing-plan ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.price-card ul {
-    list-style-type: white;
+.pricing-plan ul li {
+    padding: 8px 0;
 }
 
-.price-card ul li {
-    margin-bottom: 8px;
+.cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
 }
 
-.price-card ul li:last-child {
-    font-weight: bold;
-    color: White;
-    font-size: 18px;
+.cta-button:hover {
+    background-color: #0056b3;
 }
 
-footer {
-    background-color: white;
-    color: red;
-    text-align: center;
-    padding: 1rem;
-}
 
 
 form {

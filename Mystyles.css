@@ -107,7 +107,7 @@ form select {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
 }
 
@@ -135,5 +135,5 @@ footer {
 }
 
 body {
-    background-color: white;
+    background-color: black;
 }

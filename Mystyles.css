@@ -63,44 +63,51 @@ main {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: black;
+    color: black;
     text-align: center;
-    padding: 10px 0;
+    padding: 1rem;
 }
 
-.pricing-plan {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.price-card {
+    background-color: black;
+    border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.pricing-plan h2 {
-    color: #333;
+.price-card h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-.pricing-plan ul {
-    list-style-type: none;
-    padding: 0;
+.price-card p {
+    color: white;
+    margin-bottom: 15px;
 }
 
-.pricing-plan ul li {
-    padding: 8px 0;
+.price-card ul {
+    list-style-type: white;
 }
 
-.cta-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 3px;
+.price-card ul li {
+    margin-bottom: 8px;
 }
 
-.cta-button:hover {
-    background-color: #0056b3;
+.price-card ul li:last-child {
+    font-weight: bold;
+    color: White;
+    font-size: 18px;
 }
+
+footer {
+    background-color: white;
+    color: red;
+    text-align: center;
+    padding: 1rem;
+}
+
 
 
 

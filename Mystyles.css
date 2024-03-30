@@ -78,7 +78,8 @@ footer {
 }
 
 .price-card ul li {
-    margin-bottom: 8px;
+    margin-bottom: 8px; 
+    color: white
 }
 
 .price-card ul li:last-child {

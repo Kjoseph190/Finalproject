@@ -15,6 +15,9 @@ header {
     padding: 1rem;
 }
 
+header H1 p { color:white }
+
+
 nav ul {
     list-style-type: none;
 }

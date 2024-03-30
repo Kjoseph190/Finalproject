@@ -127,7 +127,7 @@ form button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s white;
+    transition: background-color 0.3s black;
 }
 
 form button:hover {

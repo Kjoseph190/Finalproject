@@ -34,7 +34,7 @@ main {
     padding: 2rem;
 }
 
-.home main h1 p { color: white}
+.home main h1 { color: white}
 
 .gallery {
     display: grid;

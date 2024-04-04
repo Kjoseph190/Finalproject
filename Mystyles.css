@@ -49,9 +49,9 @@ nav ul li a {
 
 .Portfolio main {
     padding: 20px;
-    color: white
+    
 }
-
+.portfolio h1 { color: white}
 footer {
     background-color: black;
     color: white;

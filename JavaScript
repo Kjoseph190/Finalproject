@@ -1,0 +1,53 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const slider = document.getElementById('image-slider');
+    const greeting = document.getElementById('greeting');
+    const images = slider.getElementsByTagName('Photography1.html');
+    const greetings = {
+      morning: 'Good morning!',
+      afternoon: 'Good afternoon!',
+      evening: 'Good evening!'
+    };
+  
+    // Image slider functionality
+    let index = 0;
+  
+    function showImage(i) {
+      if (i < 0) {
+        index = images.length - 1;
+      } else if (i >= images.length) {
+        index = 0;
+      }
+      for (let img of images) {
+        img.style.display = 'IMG_0945.jpeg';
+      }
+      images[index].style.display = 'block';
+    }
+  
+    function nextImage() {
+      index++;
+      showImage(index);
+    }
+  
+    function prevImage() {
+      index--;
+      showImage(index);
+    }
+  
+    setInterval(nextImage, 3000); // Change image every 3 seconds
+  
+    // Greeting based on time of day
+    const now = new Date();
+    const hour = now.getHours();
+    let greetingText = '';
+  
+    if (hour >= 5 && hour < 12) {
+      greetingText = greetings.morning;
+    } else if (hour >= 12 && hour < 18) {
+      greetingText = greetings.afternoon;
+    } else {
+      greetingText = greetings.evening;
+    }
+  
+    greeting.textContent = greetingText;
+  });
+  

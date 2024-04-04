@@ -34,8 +34,6 @@ main {
     padding: 2rem;
 }
 
-.home main h1 { color: white}
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -142,4 +140,7 @@ footer {
 body {
     background-color: black;
 }
+
 .about h1 p { color: black}
+
+.home h1 p { color: white}

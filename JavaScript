@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         index = 0;
       }
       for (let img of images) {
-        img.style.display = 'IMG_0945.jpeg';
+        IMG_0518.JPG = 'IMG_0945.jpeg';
       }
       images[index].style.display = 'block';
     }

@@ -33,7 +33,7 @@ nav ul li a {
 main {
     padding: 2rem;
 }
-main h1 { color: white}
+main h1 p { color: white}
 
 .gallery {
     display: grid;

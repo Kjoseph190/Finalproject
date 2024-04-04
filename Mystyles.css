@@ -30,7 +30,7 @@ nav ul li a {
     text-decoration: bold;
 }
 
-.home main h1 p {
+main h1 {
     padding: 2rem;
     color: white
 }

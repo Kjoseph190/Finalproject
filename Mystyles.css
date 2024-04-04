@@ -48,6 +48,7 @@ main {
 
 main {
     padding: 20px;
+    color: black
 }
 
 footer {
@@ -143,5 +144,3 @@ body {
 }
 
 .about h1 p { color: black}
-
-.home section h1{ color: white}

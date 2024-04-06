@@ -7,12 +7,23 @@
 <link rel="stylesheet" href="Mystyles.css">
 </head>
 <body>
-
+    <img id="mainImage" src="Photoshoot.jpeg" alt="Main Image">
+    <button onclick="spinImage()">Spin Image</button>
 <style>
+    #mainImage {
+        width: 200px;
+        height: 200px;
+        transition: transform 1s ease-in-out;
+      }
+    
+      .spin {
+        transform: rotate(360deg);
+    }
 body {
 background-color: black;
 }
 </style>
+
 <header>
 <p class="intro"></p>
 <img id="img1100">

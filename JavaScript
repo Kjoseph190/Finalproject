@@ -1,0 +1,10 @@
+function spinImage() {
+    const image = document.getElementById('mainImage');
+    image.classList.add('spin');
+  
+    // Remove the 'spin' class after the animation completes
+    image.addEventListener('animationend', () => {
+      image.classList.remove('spin');
+    }, { once: true });
+  }
+  

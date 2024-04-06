@@ -1,6 +1,6 @@
 function openInstagram() {
-    const instagramUsername = 'KJVISION_';
-    const instagramUrl = ` https://www.instagram.com/kjvision_?igsh=YzZjenhubGMybjB3&utm_source=qr{kjvision_}/`;
-    window.open(https://www.instagram.com/kjvision_?igsh=YzZjenhubGMybjB3&utm_source=qr, 'kjvision_');
+const instagramUsername = 'KJVISION_';
+const instagramUrl = ` https://www.instagram.com/kjvision_?igsh=YzZjenhubGMybjB3&utm_source=qr{kjvision_}/`;
+window.open(https://www.instagram.com/kjvision_?igsh=YzZjenhubGMybjB3&utm_source=qr, 'kjvision_');
 }
   

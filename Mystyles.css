@@ -137,7 +137,8 @@ footer {
     padding: 1rem;
 }
 
-section { color: white}
+section { color: white
+} text-decoration:bold
 
 body {
     background-color: black;

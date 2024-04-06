@@ -41,9 +41,9 @@ nav ul li a {
     height: auto;
 }
 
-.home h1 { color: white}
+.home title h1 { color: white}
 
-.home p { color: white}
+
 
 .Portfolio main {
     padding: 20px;

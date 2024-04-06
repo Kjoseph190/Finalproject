@@ -1,10 +1,8 @@
-function spinImage() {
-    const image = document.getElementById('mainImage');
-    image.classList.add('spin');
+function openInstagram() {
+    const instagramUsername = 'KJVISION_';
+    const instagramUrl = ` https://www.instagram.com/kjvision_?igsh=YzZjenhubGMybjB3&utm_source=qr{kjvision_}/`;
   
-    // Remove the 'spin' class after the animation completes
-    image.addEventListener('animationend', () => {
-      image.classList.remove('spin');
-    }, { once: true });
+    window.open(instagramUrl, '_blank');
   }
+  
   

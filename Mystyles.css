@@ -137,7 +137,7 @@ footer {
     padding: 1rem;
 }
 
- section h1 p { color: black}
+section { color: black}
 
 body {
     background-color: black;

@@ -1,6 +1,6 @@
 function openInstagram() {
     const instagramUsername = 'kjvision_';
-    const instagramUrl = `https://www.instagram.com/kjvision_?igsh=YzZjenhubGMybjB3&utm_source=qr${instagramUsername}/`;
+    const instagramUrl = `https://www.instagram.com/kjvision_?igsh=YzZjenhubGMybjB3&utm_source=qr${kjvision_}/`;
   
     window.open(instagramUrl, '_blank');
   }

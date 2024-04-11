@@ -4,12 +4,3 @@ function openInstagram() {
   
     window.open(instagramUrl, '_blank');
   }
-  function toggleFullSize() {
-    var fullSizeContainer = document.querySelector('.full-size-container');
-
-    if (fullSizeContainer.style.display === 'none') {
-        fullSizeContainer.style.display = 'block';
-    } else {
-        fullSizeContainer.style.display = 'none';
-    }
-}

@@ -150,5 +150,9 @@ body {
     gap: 10px;
 }
 
+.full-size-container {
+    display: none;
+}
+
 
 

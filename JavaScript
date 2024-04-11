@@ -4,14 +4,3 @@ function openInstagram() {
   
     window.open(instagramUrl, '_blank');
   }
-  function zoomImage(thumbnail) {
-    var zoomedImageContainer = document.querySelector('.zoomed-image-container');
-    var zoomedImage = document.querySelector('.zoomed-image');
-
-    zoomedImage.src = thumbnail.src;
-    zoomedImageContainer.style.display = 'flex';
-
-    zoomedImageContainer.onclick = function() {
-        zoomedImageContainer.style.display = 'none';
-    };
-}

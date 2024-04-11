@@ -154,5 +154,27 @@ body {
     display: none;
 }
 
+.thumbnail-container {
+    position: relative;
+    display: inline-block;
+}
+
+.full-size-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.thumbnail:hover + .full-size-container {
+    display: block;
+}
+
+.full-size-image {
+    max-width: 90vw;
+    max-height: 90vh;
+}
 
 

@@ -4,12 +4,12 @@ function openInstagram() {
   
     window.open(instagramUrl, '_blank');
   }
-  document.addEventListener('DOMContentLoaded', function() {
-    var fullSizeContainers = document.querySelectorAll('.full-size-container');
-    
-    fullSizeContainers.forEach(function(container) {
-        container.addEventListener('click', function() {
-            container.style.display = 'none';
-        });
-    });
-});
+  function toggleFullSize() {
+    var fullSizeContainer = document.querySelector('.full-size-container');
+
+    if (fullSizeContainer.style.display === 'none') {
+        fullSizeContainer.style.display = 'block';
+    } else {
+        fullSizeContainer.style.display = 'none';
+    }
+}
